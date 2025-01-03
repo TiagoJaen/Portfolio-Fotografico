@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tiago Jaen Fotografía</title>
+        <script src="index.js"></script>
+        <link rel="icon" href="img/IconoHead.ico">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <header>
+                <div id="titulo">
+                            <h1><a href="index.html">Tiago Jaen</a></h1>
+                </div>
+                <nav id="main-nav">
+                    <div class="menu-main">
+                        <ul class="menu-nav">
+                            <li class="menu-item">
+                                <a href="Sobre Mi.html" title="Conoceme más">Sobre mi</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="index.html#portfolio" title="Mirá mis fotos">Portfolio</a>
+                            </li>
+                            <li class="menu-item-p">
+                                <a href="Contacto.html" title="¡Contactame!">Contacto</a>
+                            </li>
+                        </ul>
+                        <ul class="content-top-icon">
+                            <li><a target="_blank" href="https://www.instagram.com/tiabo.jpg/">
+                                <img src="img/Logo ig.png" id="instagram" alt="instagram">
+                            </a></li>
+                            <li><a target="_blank"href="mailto:tiagojaenph@gmail.com">
+                                    <img src="img/Logo mail.png" id="correo" alt="correo">
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-responsive">
+                        <label for="menu" class="nav-label">
+                            <img src="img/menu-lines.png" alt="nav-bars">
+                        </label>
+                        <input type="checkbox" id="menu" class="nav-input">
+                        <div class="nav-responsive-wrap">
+                            <ul class="responsive-items">
+                                <li class="menu-item-responsive">
+                                    <a href="index.html#Showroom" title="Mirá mis fotos">Portfolio</a>
+                                </li>
+                                <li class="menu-item-responsive">
+                                    <a href="Sobre Mi.html" title="Conoceme más">Sobre Mi</a>
+                                </li>
+                                <li class="menu-item-responsive">
+                                    <a href="Contacto.html" title="¡Contactame!">Contacto</a>
+                                </li>
+                            </ul>
+                            <ul class="responsive-logos">
+                                <li class="responsive-ig">
+                                    <a target="_blank" href="https://www.instagram.com/tiabo.jpg/">
+                                        <img src="img/Logo ig.png" id="instagram" alt="instagram">
+                                    </a>
+                                </li>
+                                <li class="responsive-mail">
+                                    <a target="_blank"href="mailto:tiagojaenph@gmail.com">
+                                        <img src="img/Logo mail.png" id="correo" alt="correo">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main id="main">
+                <article id="main-contacto">
+                    <section class="imagenes">
+                        <div class="camara">
+                            <img src="img/camara.png" alt="D3100">
+                        </div>
+                        <div class="lente1">
+                            <img src="img/lente1.png" alt="55-200mm">
+                        </div>
+                        <div class="lente2">
+                            <img src="img/lente2.png" alt="18-55mm">
+                        </div>
+                        <div class="flash">
+                            <img src="img/flash.png" alt="Flash">
+                        </div>
+                    </section>
+                    <section class="formulario">
+                        <form class="form">
+                            <div class="form-container">
+                                <div class="first-row">
+                                    <input type="text" placeholder="Nombre" id="nombre">
+                                    <div id="contact-ig">
+                                        <a target="_blank" href="https://www.instagram.com/tiabo.jpg/">
+                                            <img src="img/Logo ig.png" alt="instagram" id="">
+                                        </a>
+                                    </div>
+                                    <input type="text" placeholder="Apellido" id="apellido">
+                                </div>
+                                <div class="second-row">
+                                    <input type="email" placeholder="Email" id="email">
+                                    <div id="contact-mail">
+                                        <a target="_blank" href="mailto:tiagojaenph@gmail.com">
+                                            <img src="img/Logo mail.png" alt="Correo">
+                                        </a>
+                                    </div>
+                                    <input type="text" placeholder="Lugar del evento" id="lugar">
+                                </div>
+                                <div class="third-row">
+                                    <input type="number" placeholder="Teléfono" id="numero">
+                                    <div id="contact-number">
+                                        <a href="">
+                                            <img src="img/Logo telefono.png" alt="telefono">
+                                        </a>
+                                    </div>
+                                    <input type="date" placeholder="Fecha del evento" id="fecha">
+                                </div>
+                                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingrese su mensaje aqui"></textarea>
+                                <input type="submit" id="enviar">
+                            </div>
+                        </form>
+                    </section>  
+                </article>
+            </main>
+            <footer id="footer">
+                <div class="footer-content">
+                    <p>
+                    Tiago David Jaen &copy; 2022 <br>
+                    Mar del Plata, Argentina. <br>
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
